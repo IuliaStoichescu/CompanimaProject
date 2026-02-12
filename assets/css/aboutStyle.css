@@ -1,0 +1,45 @@
+body {
+   background: #2A7B9B;
+   background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+#aboutUs {
+   font-size: 3rem;
+
+}
+
+.about-subtitle {
+   margin: 0 0 22px;
+   font-size: 1rem;
+   opacity: 0.75;
+   font-weight: bold;
+   font-style: italic;
+}
+
+
+.titleAboutUs {
+   margin-top: 20vh;
+   padding: 2em;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 10px;
+   width: auto;
+}
+
+section {
+   margin: 1em;
+   background: rgba(255, 255, 255, 0.75);
+   border: 1px solid rgba(0, 0, 0, 0.06);
+   border-radius: 16px;
+   padding: 32px;
+   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+}
+
+.photo img {
+   width: 500px;
+   height: auto;
+   border-radius: 15px;
+   padding-left: 20px;
+}
